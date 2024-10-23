@@ -1,3 +1,5 @@
-SELECT *
+SELECT * 
 FROM mahasiswa
-WHERE jurusan ='Teknik Informatika'and alamat = 'jl.merdeka %'
+WHERE alamat 
+LIKE 'JL. Merdeka %' 
+AND jurusan IN ('Teknik Informatika');

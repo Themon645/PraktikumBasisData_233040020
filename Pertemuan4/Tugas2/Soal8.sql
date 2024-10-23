@@ -1,3 +1,4 @@
 SELECT mahasiswa
 FROM mahasiswa
-WHERE jurusan =
+WHERE jurusan='Teknik informatika' 
+LIKE 'Jl. Merdeka%';

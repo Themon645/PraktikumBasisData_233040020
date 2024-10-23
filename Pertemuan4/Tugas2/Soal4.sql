@@ -1,3 +1,3 @@
-SELECT TOP(5)
-FROM mahasiswa
-ORDER BY jumlah_pembayaran ASC;
+SELECT TOP(5) jumlah_pembayaran
+FROM dpp_mahasiswa
+ORDER BY jumlah_pembayaran DESC;
